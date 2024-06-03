@@ -25,7 +25,7 @@ const perfect = () => {
 </script>
 
 <template>
-    <Head title="O Que Jantar?" />
+    <!-- <Head title="O Que Jantar?" /> -->
     <div class="container mx-auto p-14 h-screen overflow-auto">
         <!-- // Passo 1 - boas vindas -->
         <div v-if="step === 0" class="h-full flex flex-col items-center justify-center gap-6 text-center">
