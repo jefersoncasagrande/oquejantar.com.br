@@ -63,7 +63,7 @@ const perfect = () => {
                     </defs>
                 </svg>
             </div>
-            <div class="bg-clip-text text-transparent text-2xl font-medium bg-gradient-to-r from-primary to-secondary">Hoje a jantar vai ser...</div>
+            <div class="bg-clip-text text-transparent text-2xl font-medium bg-gradient-to-r from-primary to-secondary">Hoje seu jantar vai ser...</div>
             <div><img :src="`https://source.unsplash.com/random/?${tonightDinner}`" class="aspect-square rounded-lg object-cover w-full md:w-1/2 lg:w-1/3 mx-auto" /></div>
             <div class="bg-clip-text text-transparent text-3xl lg:text-4xl font-medium bg-gradient-to-l from-primary to-secondary">...{{ tonightDinner }}</div>
             <div class="flex flex-col items-center gap-2 mt-8" v-if="step === 2">
